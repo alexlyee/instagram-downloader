@@ -421,12 +421,13 @@ async def saved(bot, message):
     if count:
         command = [
             "instaloader",
-            "--no-metadata-json",
             "--no-compress-json",
             "--no-profile-pic",
-            "--no-posts",
-            "--no-captions",
             "--no-video-thumbnails",
+            "--igtv"
+            "--geotags"
+            "--comments"
+            " --sanitize-paths"
             "--login", USER,
             "-f", session,
             "--dirname-pattern", dir,
