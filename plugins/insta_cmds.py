@@ -424,10 +424,10 @@ async def saved(bot, message):
             "--no-compress-json",
             "--no-profile-pic",
             "--no-video-thumbnails",
-            "--igtv"
-            "--geotags"
-            "--comments"
-            " --sanitize-paths"
+            "--igtv",
+            "--geotags",
+            "--comments",
+            " --sanitize-paths",
             "--login", USER,
             "-f", session,
             "--dirname-pattern", dir,
