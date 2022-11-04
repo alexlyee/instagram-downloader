@@ -1,6 +1,8 @@
 # Instagram Manager Bot
 The most advanced Instagram Downloader Bot.
 
+I've forked the original and made improvements to the /saved command.
+
 ```
 Please fork this repository don't import code
 Made with Python3
